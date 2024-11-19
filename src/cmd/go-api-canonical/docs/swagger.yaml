@@ -1,0 +1,19 @@
+basePath: /api
+host: 127.0.0.1:8585
+info:
+  contact: {}
+  description: API Example Service
+  title: Go API Canonical
+  version: "1.0"
+paths: {}
+produces:
+- application/json
+schemes:
+- http
+- https
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
